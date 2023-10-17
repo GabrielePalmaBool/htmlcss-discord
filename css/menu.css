@@ -6,70 +6,106 @@
 }
 
 :root {
-    font-size: 20px;
+    font-size: 17px;
     font-family: Whitney, ‘Helvetica Neue’, Helvetica, Arial, sans-serif;
 }
 
+
+
+/*---------------------------------------------------stile sezione header -------------------------------------------------*/
+
 /*----------------stile sezione nav "container1"-----------------------*/
 
-.container1 {
+.containerH {
     display: flex;
-    min-height: 400px;
+    min-height: 600px;
     flex-direction: row;
     justify-content: center;
+    flex-wrap:wrap;
     background-image: url("../img/jumbo.png");
+    background-size: cover;
     padding: 10px 0px 10px 0px;
+    
 }
 
-.container1 > .item1 {
+.containerH > .item1 {
     display: flex;
     height: 50px; 
     padding: 5px 0px 5px 0px;
-    width: 60%;
-    color: white;
+    flex-basis:60%;
 } 
 
-.container1 > .item1 .logo {
-    flex-basis: 10%;
+.containerH > .item1 .logo {
+    flex-basis: 5%;
     color: red;  
 }
 
-.container1 > .item1 .Link{
+.containerH > .item1 .Link {
     flex-basis: 40%;
     text-align: center;
     color: white;
+    cursor: pointer;
+    text-decoration: none;
+    padding-top: 10px;
 } 
 
-.container1 > .item1 .Login {
-    flex-basis: 10%;
-    color: red;
+.containerH > .item1 .Login {
+    flex-basis: 15%;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    color: black;
+    background: white;
 }
 
-/*----------------stile sezione header "container2"-----------------------*/
+.containerH > .item1 .Link:active {
+    color: black;
+  }
 
+.containerH > .item1 .Login:active {
+    color: white;
+  }
 
-.container2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center; 
-    flex-wrap: wrap;
-    background-color: rgb(2, 18, 112);  
-    padding: 30px 0px 30px 0px;
-}
+/* ------------------------------------------------------------------ */
+
 
 /* item */
 
-.container2 > .item{
+ .containerH > .item2 {
     flex-basis: 60%;
     min-height: 300px;
-    background-color: rgb(250, 157, 173);
-    border: 2px dashed black;
+    color: white;
+    text-align: center;
+} 
+
+.containerH > .item2 .Scarica {
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+    padding: 7px 5px 7px 5px;
+    margin: 20px 10px 0px 0px;
+    color: black;
+    background: white;
 }
 
+.containerH > .item2 .Apri {
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+    padding: 7px 5px 7px 5px;
+    margin: 20px 10px 0px 0px;
+    color: white;
+    background: rgb(46, 46, 46);
+}
 
 /*----------------stile sezione main "container3"-----------------------*/
 
-.container3 {
+.containerM {
     display: flex;
     flex-direction: row;
     justify-content: center; 
@@ -78,56 +114,67 @@
 
 /* item1 */
 
-.container3 > .item1{
+.containerM > .item1{
     display: flex;
-    justify-content: center; 
-    background-color: white;
-    margin: 20px 0px 20px 0px;
+    margin: 10px 0px 0px 0px;
     min-height: 400px;
-    width: 100%;
+    flex-basis: 70%;
 }
 
-.container3 > .item1 .item1{
-    flex-basis: 40%;
-    font-size: 30px;
-    background-color: rgb(184, 237, 255);
-    border: 2px dashed black;
+.containerM > .item1 .imgM1{
+    flex-basis: 50%;
 }
 
-.container3 > .item1 .item2{
+.containerM > .item1 .item2{
     flex-basis: 20%;
-    background-color: rgb(255, 208, 216);
-    border: 2px dashed black;
 }
 
+.containerM > .item1 .item2 h2{
+    font-size: 40px;
+    color: black;
+    text-align: left;
+    
+}
+
+.containerM > .item1 .item2 p{
+    color: black;
+    margin-top: 35px;
+    font-weight: bold;
+}
 /* item2 */
 
-.container3 > .item2{
+.containerM > .item2{
     display: flex;
     justify-content: center; 
     padding: 30px 0px 30px 0px;
     margin: 20px 0px 20px 0px;
     background-color: rgb(238, 237, 237); 
+    background-size: cover;
     min-height: 400px;
     width: 100%;
 }
 
-.container3 > .item2 .item1{
-    flex-basis: 15%;
-    font-size: 30px;
-    background-color: rgb(184, 237, 255);
-    border: 2px dashed black;
+.containerM > .item2 .item1{
+    flex-basis: 20%;
+    margin: 20px 0px 0px 0px;
+    padding: 30px 0px 30px 0px;
 }
 
-.container3 > .item2 .item2{
-    flex-basis: 45%;
-    background-color: rgb(255, 208, 216);
-    border: 2px dashed black;
+.containerM > .item2 .item1 h2{
+    color: black;
+    text-align: left;
+    font-size: 40px;
+}
+
+.containerM > .item2 .item1 p{
+    color: black;
+    margin-top: 100px;
+    font-weight: bold;
 }
 
 /* item3 */
 
-.container3 > .item3{
+.containerM > .item3{
     display: flex;
     justify-content: center; 
     background-color: white;
@@ -136,14 +183,14 @@
     width: 100%;
 }
 
-.container3 > .item3 .item1{
+.containerM > .item3 .item1{
     flex-basis: 50%;
     font-size: 30px;
     background-color: rgb(184, 237, 255);
     border: 2px dashed black;
 }
 
-.container3 > .item3 .item2{
+.containerM > .item3 .item2{
     flex-basis: 10%;
     background-color: rgb(255, 208, 216);
     border: 2px dashed black;
@@ -151,7 +198,7 @@
 
 /* item4 */
 
-.container3 > .item4{
+.containerM > .item4{
     display: flex;
     justify-content: center; 
     background-color: rgb(238, 237, 237); 
@@ -161,7 +208,7 @@
     width: 100%;
 }
 
-.container3 > .item4 .item1{
+.containerM > .item4 .item1{
     flex-basis: 60%;
     background-color: green;
     border: 2px dashed black;
