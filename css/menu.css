@@ -71,15 +71,27 @@
 /* ------------------------------------------------------------------ */
 
 
-/* item */
+/* item2 */
 
  .containerH > .item2 {
     flex-basis: 60%;
     min-height: 300px;
     color: white;
-    text-align: center;
-} 
+    text-align: center;  
+}
 
+/*--------------------------- testo header ------------------------------------  */
+.containerH > .item2 h2{
+    font-size: 40px;
+    margin-top: 35px;
+}
+
+.containerH > .item2 p{
+    margin-top: 35px;
+    font-weight: bold;
+}
+
+/*----------------------------- stili link header (item2)------------------------ */
 .containerH > .item2 .Scarica {
     text-align: center;
     cursor: pointer;
@@ -104,7 +116,7 @@
     background: rgb(46, 46, 46);
 }
 
-/*----------------stile sezione main "container3"-----------------------*/
+/*----------------stile sezione main "containerM"-----------------------*/
 
 .containerM {
     display: flex;
