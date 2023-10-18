@@ -86,7 +86,7 @@
     border: none;
     border-radius: 15px;
     font-size: 20px;
-    padding: 7px 5px 7px 5px;
+    padding: 7px 10px 7px 10px;
     margin: 20px 10px 0px 0px;
     color: black;
     background: white;
@@ -98,7 +98,7 @@
     border: none;
     border-radius: 15px;
     font-size: 20px;
-    padding: 7px 5px 7px 5px;
+    padding: 10px 10px 7px 10px;
     margin: 20px 10px 0px 0px;
     color: white;
     background: rgb(46, 46, 46);
@@ -113,17 +113,14 @@
     flex-wrap:wrap;
 }
 
-/* item1 */
+/* riga 1 */
 
 .containerM > .item1{
     display: flex;
+    justify-content: center; 
     margin: 10px 0px 0px 0px;
     min-height: 400px;
-    flex-basis: 70%;
-}
-
-.containerM > .item1 .imgM1{
-    flex-basis: 50%;
+    width: 100%;
 }
 
 .containerM > .item1 .item2{
@@ -134,7 +131,7 @@
     font-size: 40px;
     color: black;
     text-align: left;
-    
+    margin-top: 35px;
 }
 
 .containerM > .item1 .item2 p{
@@ -142,13 +139,12 @@
     margin-top: 35px;
     font-weight: bold;
 }
-/* item2 */
+
+/* riga 2 */
 
 .containerM > .item2{
     display: flex;
     justify-content: center; 
-    flex-wrap:wrap;
-    padding: 30px 0px 30px 0px;
     background-color: rgb(238, 237, 237);  
     min-height: 400px;
     width: 100%;
@@ -188,7 +184,7 @@
     font-weight: bold;
 }
 
-/* item3 */
+/* riga 3 */
 
 .containerM > .item3{
     display: flex;
