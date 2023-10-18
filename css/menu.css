@@ -129,7 +129,7 @@
 
 .containerM > .item1{
     display: flex;
-    justify-content: center; 
+    justify-content: space-evenly; 
     margin: 10px 0px 0px 0px;
     min-height: 400px;
     width: 100%;
@@ -156,7 +156,7 @@
 
 .containerM > .item2{
     display: flex;
-    justify-content: center; 
+    justify-content: space-evenly;
     background-color: rgb(238, 237, 237);  
     min-height: 400px;
     width: 100%;
