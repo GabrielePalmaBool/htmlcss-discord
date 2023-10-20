@@ -206,6 +206,8 @@
 
 /* ------------------------------------------------ */
 
+
+/* riga 3 */
 .containerM > .item5{
     min-height: 400px;
     flex-basis: 50%;
@@ -214,6 +216,64 @@
 .containerM > .item5 img{
     margin-left: 30%;
 }
+
+.containerM > .item6{
+    min-height: 400px;
+    flex-basis: 50%;
+}
+
+.containerM > .item6 h2{
+    color: black;
+    margin-top: 35px;
+    font-size: 30px;
+    width: 300px;
+}
+
+.containerM > .item6 p{
+    color: black;
+    margin-top: 100px;
+    font-weight: bold;
+    width: 300px;
+}
+
+/* riga 4 */
+
+.containerM > .item7{
+    background-color: rgb(238, 237, 237);
+    min-height: 200px;
+    flex-basis: 100%;
+}
+
+.containerM > .item7 h2{
+    color: black;
+    background-color: rgb(238, 237, 237);
+    margin-top: 35px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.containerM > .item7 p{
+    color: black;
+    margin-top: 40px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+    margin-left: 25%;
+}
+
+/* riga 5 */
+
+.containerM > .item8{
+    min-height: 400px;
+    background-color: rgb(238, 237, 237);
+    flex-basis: 100%;
+}
+
+.containerM > .item8 img{
+    margin-left: 20%;
+    width: 60%;
+}
+
 
 
 /*----------------stile sezione footer "container4"-----------------------*/
